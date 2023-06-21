@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+<link href="assets/images/favicon.png" rel="icon" />
+<title>Documentation | Wallpaper71</title>
+<meta name="description" content="Your ThemeForest item Name and description">
+<meta name="author" content="harnishdesign.net">
+
+<!-- Stylesheet
+============================== -->
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+<!-- Font Awesome Icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Magnific Popup -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+<!-- Highlight Syntax -->
+<link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+<!-- Custom Stylesheet -->
+<link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+<!-- Document Wrapper   
+=============================== -->
+<div id="main-wrapper"> 
+
+<!-- Header
+============================ -->
+<header id="header" class="sticky-top"> 
+  <!-- Navbar -->
+  <nav class="primary-menu navbar navbar-expand-lg bg-dark navbar-text-light navbar-dropdown-dark border-0">
+    <div class="container-fluid">
+      <!-- Sidebar Toggler -->
+	<button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span></span></button>
+	
+	<!-- Logo --> 
+      <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img src="assets/images/logo-light.png" alt="iDocs Template"/> <span class="text-2 text-light ml-2">v1.0</span></a> 
+	<!-- <span class="text-2 text-light ml-2">v1.0</span>  -->
+      <!-- Logo End -->
+      
+	<!-- Navbar Toggler -->
+	
+      
+	
+      
+    </div>
+  </nav>
+  <!-- Navbar End --> 
+</header>
+<!-- Header End --> 
+
+<!-- Content
+============================ -->
+<div id="content" role="main">
+  
+<!-- Sidebar Navigation
+============================ -->
+<div class="idocs-navigation bg-light">
+    <ul class="nav flex-column ">
+      <li class="nav-item"><a class="nav-link active open sub_menu" href="#get_started_web">Get Started (Web)</a>
+        <ul class="nav flex-column">
+          <!-- <li class="nav-item"><a class="nav-link" href="#idocs_installation">Installation</a></li> -->
+          <li class="nav-item"><a class="nav-link" href="#idocs_server_requirements">Server Requirements</a></li>
+          <li class="nav-item"><a class="nav-link sub_menu" href="#idocs_step01">Web Installation</a>
+            <ul class="nav flex-column">
+              <li class="nav-item"><a class="nav-link" href="#idocs_step01">Step 01 - Upload Files</a></li>
+              <li class="nav-item"><a class="nav-link" href="#idocs_step02">Step 02 - Install</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link sub_menu" href="#Collection_add">Admin Configurations</a>
+             <ul class="nav flex-column">
+                <li class="nav-item"><a class="nav-link" href="#Collection_add">Step 01 - Add Categories</a></li>
+                <li class="nav-item"><a class="nav-link" href="#product_add">Step 02 - Add Wallpapers</a></li>
+                <li class="nav-item"><a class="nav-link" href="#color_add">Step 03 - Add Colors</a></li>
+                <li class="nav-item"><a class="nav-link" href="#app_settings">Step 04 - App Settings</a></li>
+                <li class="nav-item"><a class="nav-link" href="#other_settings">Step 05 - Ads & Notification</a></li>
+                <li class="nav-item"><a class="nav-link" href="#update_profile">Step 06 - Update Profile</a></li>
+                <li class="nav-item"><a class="nav-link" href="#push_nottification">Step 07 - Push Notification</a></li>
+              </ul>
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item"><a class="nav-link active open sub_menu" href="#get_started_app">Get Started (App)</a>
+        <ul class="nav flex-column">
+    			<li class="nav-item"><a class="nav-link" href="#requirements">Requirements</a></li>
+          <li class="nav-item"><a class="nav-link sub_menu" href="#installation">App Configurations</a>
+             <ul class="nav flex-column">
+                <li class="nav-item"><a class="nav-link" href="#open_project">Step 01 - Open Project</a></li>
+                <li class="nav-item"><a class="nav-link" href="#change_logo">Step 02 - Change Logo</a></li>
+                <li class="nav-item"><a class="nav-link" href="#change_name">Step 03 - Change Name</a></li>
+                <li class="nav-item"><a class="nav-link" href="#change_title">Step 04 - Change Title</a></li>
+                <li class="nav-item"><a class="nav-link" href="#change_baseUrl">Step 05 - Set Your BaseUrl</a></li>
+                <li class="nav-item"><a class="nav-link" href="#change_color">Step 06 - Set App Color</a></li>
+                <li class="nav-item"><a class="nav-link" href="#change_appId">Step 07 - Change Id</a></li>
+                <li class="nav-item"><a class="nav-link" href="#change_package">Step 08 - Change Package</a></li>
+                <li class="nav-item"><a class="nav-link" href="#network_security">Step 09 - Network Security</a></li>
+                <li class="nav-item"><a class="nav-link" href="#create_signed_apk">Step 10 - Create Signed APK</a></li>
+              </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#project_structure">Project Structure</a></li>
+        </ul>
+      </li>
+      <li class="nav-item"><a class="nav-link open" href="#common_error">Common Error</a></li>
+    </ul>
+  </div>
+  
+  <!-- Docs Content
+============================ -->
+  <div class="idocs-content">
+    <div class="container"> 
+      
+      <!-- Getting Started (Web)
+	============================ -->
+      <section id="get_started_web">
+        <h1>Documentation</h1>
+        <h2>Welcome To Wallpaper 71</h2>
+        <p class="lead">Thank you so much for purchasing our item from CodeCanyon.</p>
+    		<hr>
+    		<div class="row">
+    			<div class="col-sm-6 col-lg-4">
+    				<ul class="list-unstyled">
+    					<li><strong>Version:</strong> 1.0</li>
+    					<li><strong>Author:</strong> <a href="http://www.coder71.com/" target="_blank">Coder71 Limited</a></li>
+    				</ul>
+    			</div>
+    			<div class="col-sm-6 col-lg-4">
+    				<ul class="list-unstyled">
+    					<li><strong class="font-weight-700">Created:</strong> 7 OCtober, 2021</li>
+    					<li><strong>Update:</strong> 12 October, 2021</li>
+    				</ul>
+    			</div>
+    		</div>
+        <p class="alert alert-info">If you have any questions that are beyond the scope of this help file, Please feel free to email via <a target="_blank" href="https://codecanyon.net/user/coder71">Item Support Page</a>.</p>
+      </section>
+          
+  		<hr class="divider">
+	
+      <!-- Server Requirements
+	============================ -->
+      <section id="idocs_server_requirements">
+        <h2>Server Requirements</h2>
+        <ul>
+          <li>PHP >= 7.3</li>
+          <li>BCMath PHP Extension</li>
+          <li>Ctype PHP Extension</li>
+          <li>Fileinfo PHP Extension</li>
+          <li>JSON PHP Extension</li>
+          <li>OpenSSL PHP Extension</li>
+          <li>PDO PHP Extension</li>
+          <li>Tokenizer PHP Extension</li>
+          <li>XML PHP Extension</li>
+          <li>GD Library PHP Extension</li>
+        </ul>
+        <p>*In most servers, these extensions are enabled by default, but you should check with your hosting provider.</p>
+      </section>
+      
+	<hr class="divider">
+	        
+	<!-- Step 01
+	============================ -->
+      <section id="idocs_step01">
+        <h2>Installation</h2>
+        <h2 class="step_title"><span class="step_span">#</span>Step 01</h2>
+        <ol class="step-lists">
+          <li>Extract the downloaded project zip file on your PC.</li>
+          <li>
+            Upload the wallpaper71.zip file to your server public_html or any other directory you intend to run the script.
+            <br>
+            <a class="popup-img" href="assets/images/Click on upload.png"><img class="img-fluid border" src="assets/images/Click on upload.png" alt=""></a>
+            <a class="popup-img" href="assets/images/Click File-Upload.png"><img class="img-fluid border" src="assets/images/Click File-Upload.png" alt=""></a>
+          </li>
+          <li>
+            Extract the zip file in that directory.
+            <br>
+            <a class="popup-img" href="assets/images/Extract Zip.png"><img class="img-fluid border" src="assets/images/Extract Zip.png" alt=""></a>
+          </li>
+          <li>
+            Then create a new database from your server MySQL database.
+            <br>
+            <a class="popup-img" href="assets/images/Click MySqlDB.png"><img class="img-fluid border" src="assets/images/Click MySqlDB.png" alt=""></a>
+            <a class="popup-img" href="assets/images/type-db-name-click-create.png"><img class="img-fluid border" src="assets/images/type-db-name-click-create.png" alt=""></a>
+          </li>
+          <li>
+            Create a DB user to the database and link that database to the DB user.
+            <br>
+            <a class="popup-img" href="assets/images/Create db user.png"><img class="img-fluid border" src="assets/images/Create db user.png" alt=""></a>
+            <a class="popup-img" href="assets/images/add db user to database.png"><img class="img-fluid border" src="assets/images/add db user to database.png" alt=""></a>
+            <a class="popup-img" href="assets/images/add db user privileges.png"><img class="img-fluid border" src="assets/images/add db user privileges.png" alt=""></a>
+          </li>
+        </ol>
+      </section>
+      
+	<hr class="divider">
+	
+	<!-- Step 02
+	============================ -->
+      <section id="idocs_step02">
+        <h2 class="step_title"><span class="step_span">#</span>Step 02</h2>
+        <ol class="step-lists">
+          <li>First, hit your site URL and it will automatically take you to the installation.</li>
+          <li>
+            You will get the required information. If everything is ok then click on next step.
+            <br>
+            <a class="popup-img" href="assets/images/step-1.png"><img class="img-fluid border" src="assets/images/step-1.png" alt="" style="width:auto;"></a>
+          </li>
+          <li>
+            Now you need to set Database Host, Database Name, Database Username, Database Password, and click Continue.
+            <br>
+            <a class="popup-img" href="assets/images/step-2.png"><img class="img-fluid border" src="assets/images/step-2.png" alt="" style="width:auto;"></a>
+          </li>
+          <li>
+            Now fill up the information as you want and click Continue.
+            <br>
+            <a class="popup-img" href="assets/images/step-3.png"><img class="img-fluid border" src="assets/images/step-3.png" alt="" style="width:auto;"></a>
+          </li>
+          <li>
+            After that login page will appear, now you can login with your given e-mail address and password.
+          </li>
+        </ol>
+      </section>
+      
+	<hr class="divider">
+
+  <!-- Config Step 01
+  ============================ -->
+      <section id="Collection_add">
+        <h2>Admin Configurations</h2>
+        <h2 class="step_title"><span class="step_span">#</span>Step 01 - Add Categories</h2>
+        <ol class="step-lists">
+          <li>
+            Go to <strong>categories</strong> tab from left sidebar and click <strong>add new category</strong> to add category<br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/CollectionAdd01.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/CollectionAdd01.jpg" alt=""></a>
+          </li>
+          <li>
+            Add category <strong>name</strong>, Add category <strong>description</strong>, Choose Cover <strong>photo</strong> (Image size should be 720px X 320px) and click on <strong>Submit</strong> button
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/CollectionAdd02.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/CollectionAdd02.jpg" alt=""></a>
+          </li>
+        </ol>
+      </section>
+      
+  <hr class="divider">
+
+  <!-- Config Step 02
+  ============================ -->
+      <section id="product_add">
+        <h2 class="step_title"><span class="step_span">#</span>Step 02 - Add Wallpapers</h2>
+        <ol class="step-lists">
+          <li>
+            Go to <strong>wallpapers</strong> tab from left sidebar and click <strong>add new wallpaper</strong> to add wallpaper<br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/ProductAdd01.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/ProductAdd01.jpg" alt=""></a>
+          </li>
+          <li>
+            Choose your <strong>photo</strong>, Add wallpaper <strong>name</strong>, Choose wallpaper <strong>category</strong>, Add wallpaper <strong>tag</strong>, Add wallpaper <strong>description</strong> and click on <strong>Submit</strong> button
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/ProductAdd02.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/ProductAdd02.jpg" alt=""></a>
+          </li>
+        </ol>
+      </section>
+      
+  <hr class="divider">
+
+  <!-- Config Step 03
+  ============================ -->
+      <section id="color_add">
+        <h2 class="step_title"><span class="step_span">#</span>Step 03 - Add Colors</h2>
+        <ol class="step-lists">
+          <li>
+            Go to <strong>colors</strong> tab from left sidebar and click <strong>add new color</strong> to add color<br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/ColorsAdd01.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/ColorsAdd01.jpg" alt=""></a>
+          </li>
+          <li>
+            Add color <strong>name</strong>, Choose color <strong>photo</strong> (Image size should be 300px X 200px) and click on <strong>Submit</strong> button
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/ColorsAdd02.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/ColorsAdd02.jpg" alt=""></a>
+          </li>
+        </ol>
+      </section>
+      
+  <hr class="divider">
+
+  <!-- Config Step 04
+  ============================ -->
+      <section id="app_settings">
+        <h2 class="step_title"><span class="step_span">#</span>Step 04 - App Settings</h2>
+        <ol class="step-lists">
+          <li>
+            Go to <strong>app settings</strong> tab from left sidebar<br>
+          </li>
+          <li>
+            Add app <strong>title</strong>, Add About us <strong>Link</strong>, Add About us <strong>Link</strong>, Choose admin <strong>logo</strong>, Choose admin <strong>favicon</strong>, Choose Most Popular Item <strong>Background Image</strong>, Choose Recent Photo Item <strong>Background Image</strong> and click on <strong>Submit</strong> button
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/AppSettings.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/AppSettings.jpg" alt=""></a>
+          </li>
+        </ol>
+      </section>
+      
+  <hr class="divider">
+
+  <!-- Config Step 05
+  ============================ -->
+      <section id="other_settings">
+        <h2 class="step_title"><span class="step_span">#</span>Step 05 - Ads & Notification</h2>
+        <ol class="step-lists">
+          <li>
+            Go to <strong>ads & notification</strong> tab from left sidebar<br>
+          </li>
+          <li>
+            On Ads <strong>Status</strong>, Add AdMob App Open Ad Unit <strong>ID</strong>, Enable AdMob Banner Ad Unit <strong>ID</strong>, Add AdMob Banner Ad Unit <strong>ID</strong>, Enable AdMob Interstitial Ad Unit <strong>ID</strong>, Add AdMob Interstitial Ad Unit <strong>ID</strong>, Add Push notification authorization <strong>key</strong> and click on <strong>Submit</strong> button
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/OthersSetting.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/OthersSetting.jpg" alt=""></a>
+          </li>
+        </ol>
+      </section>
+      
+  <hr class="divider">
+
+  <!-- Config Step 06
+  ============================ -->
+      <section id="update_profile">
+        <h2 class="step_title"><span class="step_span">#</span>Step 06 - Update Profile</h2>
+        <ol class="step-lists">
+          <li>
+            Go to <strong>update profile</strong> tab from left sidebar<br>
+          </li>
+          <li>
+            Update your <strong>name</strong>, Update your <strong>email</strong>, Your <strong>carrent password</strong>, Add your <strong>new password</strong>, Add your <strong>confirm password</strong> and click on <strong>Update</strong> button
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/UpdateProfile.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/UpdateProfile.jpg" alt=""></a>
+          </li>
+        </ol>
+      </section>
+      
+  <hr class="divider">
+
+  <!-- Config Step 07
+  ============================ -->
+      <section id="push_nottification">
+        <h2 class="step_title"><span class="step_span">#</span>Step 07 - Push Notification</h2>
+        <ol class="step-lists">
+          <li>
+            Go to <strong><a href="https://console.firebase.google.com/" target="_blank">console.firebase.google.com</a></strong> and click to <strong>Create project</strong><br>
+            <a href="https://console.firebase.google.com/" target="_blank" style="color: green;">https://console.firebase.google.com/</a>
+            <a class="popup-img" href="assets/images/AdminScreenshots/Notification01.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/Notification01.jpg" alt=""></a>
+          </li>
+          <li>
+            Type your <strong>project name</strong> and click <strong>continue</strong>
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/Notification02.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/Notification02.jpg" alt=""></a>
+          </li>
+          <li>
+            Click <strong>continue</strong> to proceed to the next step
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/Notification03.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/Notification03.jpg" alt=""></a>
+          </li>
+          <li>
+            Accept <strong>terms</strong> and click <strong>create project</strong>
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/Notification04.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/Notification04.jpg" alt=""></a>
+          </li>
+          <li>
+            Click over the <strong>android <img src="assets/images/android_icon.png" class="icon_img"> icon</strong> to proceed to the next step
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/Notification05.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/Notification05.jpg" alt=""></a>
+          </li>
+          <li>
+            Add your android package <strong>name</strong>, Add your app <strong>nickname</strong> and click <strong>register app</strong>
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/Notification06.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/Notification06.jpg" alt=""></a>
+          </li>
+          <li>
+            Download <strong>google.services.json</strong> file and click <strong>next</strong> to proceed to the next step
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/Notification07.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/Notification07.jpg" alt=""></a>
+          </li>
+          <li>
+            Click <strong>next</strong> to complete the procedure
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/Notification08.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/Notification08.jpg" alt=""></a>
+          </li>
+          <li>
+            Click over your <strong>app name (wallpaper)</strong> and click over to the <i class="fas fa-cog"></i> icon to manage settings
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/Notification09.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/Notification09.jpg" alt=""></a>
+          </li>
+          <li>
+            Click to <strong>cloud messaging</strong> tab and copy the <strong>server key</strong>
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/Notification10.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/Notification10.jpg" alt=""></a>
+          </li>
+          <li>
+            Go to app's admin and select <strong>Ads & Notification</strong> tab from left sidebar and paste copied key to <strong>Push notification authorization key</strong> field and click to <strong>submit</strong>
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/Notification11.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/Notification11.jpg" alt=""></a>
+          </li>
+          <li>
+            open <strong>source</strong> file and select <strong>gradle</strong> from right sidebar, select <strong>wallpaper71 > tasks > signingReport</strong> , copy <strong>SHA1</strong> code from below <strong>console bar</strong>
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/Notification12.png"><img class="img-fluid border" src="assets/images/AdminScreenshots/Notification12.png" alt=""></a>
+          </li>
+          <li>
+            Go back to your app console's setting page and select <strong>general</strong> tab, select <strong>add fingerprint</strong> file, paste copied <strong>SHA1</strong> code and click on <strong>Save</strong> button
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/Notification13.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/Notification13.jpg" alt=""></a>
+          </li>
+          <li>
+            Go to app's admin and select <strong>send push notification</strong> tab from left sidebar and click to <strong>new notification</strong> to send notification
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/Notification14.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/Notification14.jpg" alt=""></a>
+          </li>
+          <li>
+            Add Notification <strong>title</strong>, Add Notification <strong>descprition</strong>, choose <strong>collection</strong> and click on <strong>Send</strong> button
+            <br>
+            <a class="popup-img" href="assets/images/AdminScreenshots/Notification15.jpg"><img class="img-fluid border" src="assets/images/AdminScreenshots/Notification15.jpg" alt=""></a>
+          </li>
+        </ol>
+      </section>
+      
+  <hr class="divider">
+	
+	
+	
+      <section id="get_started_app">
+        <h2>Get Started (App)</h2>
+        <p class="lead mb-5">Welcome to Wallpaper71 App</p>
+      </section>
+	
+	
+      
+      <section id="requirements">
+        <h2>Requirements</h2>
+        <ul>
+          <li>To edit this project you must have Android Studio installed and configured successfully on your device Install Android Studio.</li>
+          <li>Set up your editor Install the Android Studio.</li>
+        </ul>
+      </section>
+	
+	<hr class="divider">
+
+  <!-- Android Studio required
+  ============================ -->
+      <section id="android_studio_required">
+        <h2>Android Studio</h2>
+        <ul>
+          <li>Download Android Studio 2020.3.1</li>
+          <li>Gradle: 4.1.3</li>
+          <li>After download and unzip the package, use preferred IDE (Android Studio / Visual Code / IntelliJ) to open the project Wallpaper71 folder.</li>
+          <li>Make sure android sdk is up to date.</li>  
+          <li>Open the emulator or connect real android device to run the project.</li>
+          <li>Then press the run button to start project (you can still open multi emulator at the same time).</li>
+        </ul>
+      </section>
+  
+  <hr class="divider">
+	
+	
+	<!-- installation
+	============================ -->
+      <section id="installation">
+        <h2>Installation</h2>
+        <p class="lead mb-5">This collection of articles guides you through how to install wallpaper71</p>
+      </section>
+	  
+	<!-- Setup Android Studio environment
+	============================ -->
+	<section id="setup">
+	  <h2>Setup Android Studio environment</h2>
+	  <p class="">Follow base on the operating system on which you are installing Android studio<br>Download from Here : <a href="https://developer.android.com/studio" target="_blank">https://developer.android.com/studio</a></p>
+	</section>
+	
+	<hr class="divider">
+
+  <section id="open_project">
+    <h2>App Setup</h2>
+    <h2 class="step_title"><span class="step_span">#</span>Step 01 - Open Project</h2>
+    <ol class="step-lists">
+      <li>
+        Click on File and Open and Select Project File<br>
+        <a class="popup-img" href="assets/images/AppDocumentationImage/open_project.png"><img class="img-fluid border" src="assets/images/AppDocumentationImage/open_project.png" alt=""></a>
+      </li>
+    </ol>
+  </section>
+
+  <hr class="divider">
+
+  <section id="change_logo">
+    <h2 class="step_title"><span class="step_span">#</span>Step 02 - Change App Icon</h2>
+    <ol class="step-lists">
+      <li>
+        Right click on app folder and click on New then Click on Image Asset<br>
+        <a class="popup-img" href="assets/images/AppDocumentationImage/logo_change.png"><img class="img-fluid border" src="assets/images/AppDocumentationImage/logo_change.png" alt=""></a>
+      </li>
+      <li>
+        Click on Path folder and Select Icon.<br>
+        <a class="popup-img" href="assets/images/AppDocumentationImage/logo_change2.png"><img class="img-fluid border" src="assets/images/AppDocumentationImage/logo_change2.png" alt=""></a>
+      </li>
+      <li>
+        Right click on drawable folder and click on Show in Explorer.<br>
+        <a class="popup-img" href="assets/images/AppDocumentationImage/logo_change3.png"><img class="img-fluid border" src="assets/images/AppDocumentationImage/logo_change3.png" alt=""></a><br>
+        <a class="popup-img" href="assets/images/AppDocumentationImage/logo_change4.png"><img class="img-fluid border" src="assets/images/AppDocumentationImage/logo_change4.png" alt=""></a>
+      </li>
+      <li>
+        Change png logo from here.<br>
+        <a class="popup-img" href="assets/images/AppDocumentationImage/logo_change5.png"><img class="img-fluid border" src="assets/images/AppDocumentationImage/logo_change5.png" alt=""></a><br>
+      </li> 
+    </ol>
+  </section>
+
+  <hr class="divider">
+	
+	<!-- Change app name
+	============================ -->
+	<section id="change_name">
+	  <h2 class="step_title"><span class="step_span">#</span>Step 03 - Change App Name</h2>
+	  <ol class="step-lists">
+      <li>
+        Click on Values folder and Select Strings.xml and change Wallpaper71 .<br>
+        Open app/res/values/strings.xml<br>
+        <a class="popup-img" href="assets/images/AppDocumentationImage/app_name_change.png"><img class="img-fluid border" src="assets/images/AppDocumentationImage/app_name_change.png" alt=""></a><br>
+      </li>
+    </ol>
+	</section>
+	
+	<hr class="divider"> 
+
+  <section id="change_title">
+    <h2 class="step_title"><span class="step_span">#</span>Step 04 - Change App Title</h2>
+    <ol class="step-lists">
+      <li>
+        Open app/java/com/coder71/wallpapernew/config/BaseText then Change appTitle<br>
+        <a class="popup-img" href="assets/images/AppDocumentationImage/change_app_title.png"><img class="img-fluid border" src="assets/images/AppDocumentationImage/change_app_title.png" alt=""></a>
+      </li>
+    </ol>
+  </section>  
+
+  <hr class="divider">
+
+  <section id="change_baseUrl">
+    <h2 class="step_title"><span class="step_span">#</span>Step 05 - Set Your Base Url</h2>
+    <ol class="step-lists">     
+      <li>
+        Open app/java/com/coder71/wallpapernew/config/BaseUrl then Change baseUrl<br>
+        <a class="popup-img" href="assets/images/AppDocumentationImage/change_base_url.png"><img class="img-fluid border" src="assets/images/AppDocumentationImage/change_base_url.png" alt=""></a><br>
+      </li>
+    </ol>
+  </section>
+
+  <hr class="divider">
+
+  <section id="change_color">
+    <h2 class="step_title"><span class="step_span">#</span>Step 06 - Set App Color</h2>
+    <ol class="step-lists">     
+      <li>
+        Open app/res/values/colors.xml change colorPrimary<br>
+        <a class="popup-img" href="assets/images/AppDocumentationImage/app_bar_color_change.png"><img class="img-fluid border" src="assets/images/AppDocumentationImage/app_bar_color_change.png" alt=""></a>
+      </li>
+    </ol>
+  </section>
+
+  <hr class="divider">
+
+  <section id="change_appId">
+    <h2 class="step_title"><span class="step_span">#</span>Step 07 - Change App ID</h2>
+    <ol class="step-lists">     
+      <li>
+        Click on build.gradle and change applicationId<br>
+        <a class="popup-img" href="assets/images/AppDocumentationImage/change_applicatin_id.png"><img class="img-fluid border" src="assets/images/AppDocumentationImage/change_applicatin_id.png" alt=""></a>
+      </li>
+    </ol>
+  </section>
+
+  <hr class="divider">
+
+  <section id="change_package">
+    <h2 class="step_title"><span class="step_span">#</span>Step 08 - Change App Package</h2>
+    <ul class="step-lists list-unstyled">     
+      <li>
+        <a class="popup-img" href="assets/images/AppDocumentationImage/change_app_package.png"><img class="img-fluid border" src="assets/images/AppDocumentationImage/change_app_package.png" alt=""></a><br>
+        <a class="popup-img" href="assets/images/AppDocumentationImage/change_app_package1.png"><img class="img-fluid border" src="assets/images/AppDocumentationImage/change_app_package1.png" alt=""></a><br>
+        <a class="popup-img" href="assets/images/AppDocumentationImage/change_app_package2.png"><img class="img-fluid border" src="assets/images/AppDocumentationImage/change_app_package2.png" alt=""></a><br>
+        <a class="popup-img" href="assets/images/AppDocumentationImage/change_app_package3.png"><img class="img-fluid border" src="assets/images/AppDocumentationImage/change_app_package3.png" alt=""></a>
+      </li>
+    </ul>
+  </section>
+
+  <hr class="divider">
+
+  <section id="network_security">
+    <h2 class="step_title"><span class="step_span">#</span>Step 09 - Network Security Permission</h2>
+    <ul class="step-lists list-unstyled">     
+      <li>
+        Click on res folder then xml and open network_security.xml file<br>
+        <a class="popup-img" href="assets/images/AppDocumentationImage/network_security.png"><img class="img-fluid border" src="assets/images/AppDocumentationImage/network_security.png" alt=""></a>
+      </li>
+    </ul>
+  </section>
+
+  <hr class="divider">
+
+  <section id="create_signed_apk">
+    <h2 class="step_title"><span class="step_span">#</span>Step 10 - Create Signed APK</h2>
+    <ol class="step-lists">     
+      <li>
+        Click on build and select generate signed bundle/apk<br>
+        <a class="popup-img" href="assets/images/create_signed_apk/signed_apk01.png"><img class="img-fluid border" src="assets/images/create_signed_apk/signed_apk01.png" alt=""></a>
+      </li>
+      <li>
+        Click on next to proceed<br>
+        <a class="popup-img" href="assets/images/create_signed_apk/signed_apk02.png"><img class="img-fluid border" src="assets/images/create_signed_apk/signed_apk02.png" alt=""></a>
+      </li>
+      <li>
+        Click on create new<br>
+        <a class="popup-img" href="assets/images/create_signed_apk/signed_apk03.png"><img class="img-fluid border" src="assets/images/create_signed_apk/signed_apk03.png" alt=""></a>
+      </li>
+      <li>
+        Select folder and click on ok to proceed<br>
+        <a class="popup-img" href="assets/images/create_signed_apk/signed_apk04.png"><img class="img-fluid border" src="assets/images/create_signed_apk/signed_apk04.png" alt=""></a>
+      </li>
+      <li>
+        Set password & name and click on ok to proceed<br>
+        <a class="popup-img" href="assets/images/create_signed_apk/signed_apk05.png"><img class="img-fluid border" src="assets/images/create_signed_apk/signed_apk05.png" alt=""></a>
+      </li>
+      <li>
+        Click on next to proceed<br>
+        <a class="popup-img" href="assets/images/create_signed_apk/signed_apk06.png"><img class="img-fluid border" src="assets/images/create_signed_apk/signed_apk06.png" alt=""></a>
+      </li>
+      <li>
+        Select release, make sure signiture versions V1 & V2 are checked and click on finish<br>
+        <a class="popup-img" href="assets/images/create_signed_apk/signed_apk07.png"><img class="img-fluid border" src="assets/images/create_signed_apk/signed_apk07.png" alt=""></a>
+      </li>
+    </ol>
+  </section>
+
+  <hr class="divider">
+
+      <!-- Project Structure
+  ============================ -->
+      <section id="project_structure">
+        <h2>Project Structure</h2>
+        <ul>
+          <li>image: apps/res/drawable images as well as all image are stored here.</li>
+          <li>App Layout: apps/res/layout all layout stored here.</li>
+          <li>App Color: apps/res/values/color all Colors stored here.</li>
+          <li>App Menu: apps/res/values/menu all menu stored here.</li>
+            <ol>
+              <li>activity_main_drawer.xm : This is navigation drawer menu.</li>
+              <li>main.xml: This is app bar menu like search button.</li>
+            </ol> 
+        </ul>
+        <h4>App Java File : app/java/com/wallpaper71  all java file stored here.</h4>
+        <h5><span class="step_span">#</span>1. adapter : Here all List adapter contain here like</h5> 
+        <p>CollectionListAdapter.java<br> 
+        ColorListAdapter.java<br>
+        GroupListAdapter.java<br>
+        SearchListAdapter.java<br>
+        WallpaperFavAdapter.java<br>
+        WallpaperListAdapter.java<br>
+        WallpaperPopularAdapter.java<br><br></p>
+
+        <h5><span class="step_span">#</span>2. api_service</h5>
+        <p>
+          AllWallpaperAPI.java : Hare all api call by retrofit.<br>
+          AllWallpaperService.java : Retrofit Base Configuration contain here<br><br>
+        </p>
+
+        <h5><span class="step_span">#</span>3. config</h5>
+        <p>
+          BaseText.java: All Static Text Contain here<br>
+          BaseUrl.java : All Api Url Contain Here<br><br>
+        </p>
+
+        <h5><span class="step_span">#</span>4. firebase</h5>
+        <p>FirebaseMessageReceiver.java: Firebase Message Receive form here.<br><br></p>
+
+        <h5><span class="step_span">#</span>5. fragment</h5>
+        <p>
+          FragmentCollection.java: All Category list contain here.<br>
+          FragmentFavorite.java: All Favorite list contain here.<br>
+          FragmentView.java: Home page all data contain here.<br>
+          PagerAdapter.java : Tab view all configuration here.<br>
+          PagerView.java: Home page All Interface here.<br><br>
+        </p>
+
+        <h5><span class="step_span">#</span>6. model : All api data model here</h5>
+        <p>
+          CollectionData.java<br>
+          CollectionResponce.java<br>
+          GroupListData.java<br>
+          GroupListResponce.java<br>
+          SearchData.java<br>
+          SearchDataResponce.java<br>
+          TotalCountResponce.java<br>
+          WallpaperData.java<br>
+          WallpaperDataAll.java<br>
+          WallpaperDataProduct.java<br><br>
+        </p>
+
+        <h5><span class="step_span">#</span>7. presenter : All  Data Presenter stored here.</h5>
+        <p>
+          CollectionPresenter.java<br>
+          DetailsPresenter.java<br>
+          FavoritePresenter.java<br>
+          MainPresenter.java<br>
+          WallpaperPresenter.java<br><br>
+        </p>
+
+        <h5><span class="step_span">#</span>8. View</h5>
+        <p>
+          wall_preview: 
+          FullScreenAdapter.java: Full Screen Image Adapter here.<br>
+          FullScreenView.java: Full Screen Image code here. <br>
+          SaveImgeStorage.java: For Save Image in Storage code Here. <br>
+          SliderAdapter.java: image slider adapter. <br>
+          SliderItem.java: slider item data here. <br>
+          WallpapeDetails.java : wallpaper preview interface here.<br>
+          CodeWebView.java: All web view Url load here like about , privacy etc.<br>
+          ListByCollection.java: All Category Show here.<br>
+          MainActivity.java: All Tab configure here.<br>
+          MainView.java: All main page interface here.<br>
+          WallpaperShow.java: Wallpaper Preview here. <br>
+          WallpaperView.java: Wallpaper Preview interface here. <br><br>
+        </p>
+
+      </section>
+      
+      <hr class="divider">
+
+      <section id="common_error">
+        <h2>Common Errors</h2>
+
+        <h3 class="step_title"><span class="step_span">#</span>1 - Extension (admin)</h3>
+        <p>If you don't get here all options checked then please contact your service provider.</p>
+        <a class="popup-img" href="assets/images/step-1.png"><img class="img-fluid border" src="assets/images/step-1.png" alt="" style="width:auto;"></a>
+        <hr class="divider">
+        <h3 class="step_title"><span class="step_span">#</span>2 - Network-security-config (app)</h3>
+        <p>If your data is not loading please check the step 09 "<strong><a href="#network_security">Network Security Permission</a></strong>" and make sure you complete the step.</p>
+        <hr class="divider">
+        <h3 class="step_title"><span class="step_span">#</span>3 - Subfolder admin install note</h3>
+        <p>If you installed your admin panel in a subfolder then please add "<strong>subfolder name/public</strong>" to the URL. <strong>Like "xyz.com/xyz/public</strong>"</p>
+        <hr class="divider">
+        <h3 class="step_title"><span class="step_span">#</span>4 - Base Url</h3>
+        <p>If your data is not loading and you installed the admin panel in a subfolder please make sure you "<strong>Set Your Base Url</strong>" like "<strong>domain.com/subfolder/public</strong>".</p>
+        <a class="popup-img" href="assets/images/errors/url-error.jpg"><img class="img-fluid border" src="assets/images/errors/url-error.jpg" alt=""></a>
+        <hr class="divider">
+        <h3 class="step_title"><span class="step_span">#</span>5 - When Admin Settings Change then App Re-Open</h3>
+        <p>If you have changed admin settings then please <strong>close</strong> the app and <strong>re-open</strong> it to view the change.</p>
+        <hr class="divider">
+        <h3 class="step_title"><span class="step_span">#</span>6 - Wallpaper upload error</h3>
+        <p>If you are getting an error at the time of uploading wallpaper please go to <strong>cpanel</strong>, search for <strong>INI</strong>, place your <strong>URL</strong>, increase "<strong>post_max_size</strong>" and "<strong>upload_max_filesize</strong>", click to "<strong>apply</strong>" button.</p>
+        <a class="popup-img" href="assets/images/errors/upload-error01.jpg"><img class="img-fluid border mt-3" src="assets/images/errors/upload-error01.jpg" alt=""></a>
+        <a class="popup-img" href="assets/images/errors/upload-error02.jpg"><img class="img-fluid border mt-3" src="assets/images/errors/upload-error02.jpg" alt=""></a>
+        <a class="popup-img" href="assets/images/errors/upload-error03.jpg"><img class="img-fluid border mt-3" src="assets/images/errors/upload-error03.jpg" alt=""></a>
+
+      </section>
+
+    </div>
+  </div>
+
+</div>
+<!-- Content end --> 
+
+<!-- Footer
+============================ -->
+<footer id="footer" class="section bg-dark footer-text-light">
+  <div class="container">
+    <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">
+      <li><a data-toggle="tooltip" href="" target="_blank" title="" data-original-title="Twitter"><i class="fab fa-twitter"></i></a></li>
+      <li><a data-toggle="tooltip" href="" target="_blank" title="" data-original-title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+      <li><a data-toggle="tooltip" href="" target="_blank" title="" data-original-title="Dribbble"><i class="fab fa-dribbble"></i></a></li>
+      <li><a data-toggle="tooltip" href="" target="_blank" title="" data-original-title="GitHub"><i class="fab fa-github"></i></a></li>
+    </ul>
+    <p class="text-center">Copyright &copy; 2021 <a href="http://www.harnishdesign.net/idocs-one-page-documentation-html-template/">Wallpaper71</a>. All Rights Reserved.</p>
+  <p class="text-2 text-center mb-0">Design &amp; Developed by <a class="btn-link" target="_blank" href="">Coder71 Limited</a>.</p>
+  </div>
+</footer>
+<!-- Footer end -->
+
+</div>
+<!-- Document Wrapper end --> 
+
+<!-- Back To Top --> 
+<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a> 
+
+<!-- JavaScript
+============================ -->
+<script src="assets/vendor/jquery/jquery.min.js"></script> 
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<!-- Highlight JS -->
+<script src="assets/vendor/highlight.js/highlight.min.js"></script> 
+<!-- Easing --> 
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script> 
+<!-- Magnific Popup --> 
+<script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script> 
+<!-- Custom Script -->
+<script src="assets/js/theme.js"></script>
+</body>
+</html>
